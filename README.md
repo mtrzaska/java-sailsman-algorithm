@@ -1,13 +1,13 @@
-# Algorytm Komiwojażera w Javie
+# Traveling Salesman Algorithm in Java
 
-Projekt implementuje algorytm rozwiązujący klasyczny problem komiwojażera (ang. Traveling Salesman Problem - TSP) przy użyciu języka Java. Problem komiwojażera polega na znalezieniu najkrótszej możliwej trasy, która odwiedza każde miasto dokładnie raz i wraca do punktu wyjścia. Jest to problem optymalizacyjny zaliczany do klasy problemów NP-trudnych, co oznacza, że znalezienie optymalnego rozwiązania w rozsądnym czasie staje się bardzo trudne wraz ze wzrostem liczby miast.
+The project implements an algorithm that solves the classic Traveling Salesman Problem (TSP) using the Java programming language. The Traveling Salesman Problem involves finding the shortest possible route that visits each city exactly once and returns to the starting point. It is an optimization problem classified as NP-hard, which means that finding an optimal solution within a reasonable time becomes very difficult as the number of cities increases.
 
-## Opis
+## Description
 
-Plik `TravelingSalesman.java` zawiera implementację algorytmu rozwiązującego problem komiwojażera. Kod został zaprojektowany w taki sposób, aby można było łatwo zrozumieć podstawowe koncepcje stojące za problemem komiwojażera, jak również metodę jego rozwiązania. 
+The `TravelingSalesman.java` file contains the implementation of the algorithm solving the Traveling Salesman Problem. The code is designed in such a way that one can easily understand the basic concepts behind the problem of the traveling salesman, as well as the method of its solution.
 
-## Funkcjonalności
+## Features
 
-- Obliczanie najkrótszej możliwej trasy przechodzącej przez wszystkie miasta dokładnie raz.
-- Powrót do miasta początkowego po odwiedzeniu wszystkich pozostałych miast.
-- Demonstracja zastosowania algorytmów heurystycznych w rozwiązywaniu problemów optymalizacyjnych.
+- Calculating the shortest possible route that passes through all cities exactly once.
+- Returning to the starting city after visiting all other cities.
+- Demonstrating the use of heuristic algorithms in solving optimization problems.
